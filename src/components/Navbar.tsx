@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
         </a>
 
         <div 
-          className={`fixed lg:static top-0 right-0 h-screen lg:h-auto w-[300px] lg:w-auto bg-white lg:bg-transparent flex flex-col lg:flex-row gap-8 lg:gap-8 p-24 lg:p-0 shadow-2xl lg:shadow-none transition-all duration-400 ease-in-out ${
+          className={`fixed lg:static top-0 h-screen lg:h-auto w-[300px] lg:w-auto bg-white lg:bg-transparent flex flex-col lg:flex-row gap-8 lg:gap-8 p-24 lg:p-0 shadow-2xl lg:shadow-none transition-all duration-400 ease-in-out ${
             isMobileMenuOpen ? 'right-0' : '-right-full lg:right-0'
           }`}
         >

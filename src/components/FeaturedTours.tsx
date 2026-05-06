@@ -10,7 +10,7 @@ const tours = [
     price: 120,
     rating: 4.8,
     duration: '1 Day',
-    image: '/images/sigiriya.png'
+    image: `${import.meta.env.BASE_URL}images/sigiriya.png`
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const tours = [
     price: 85,
     rating: 4.9,
     duration: '2 Days',
-    image: '/images/ella.png'
+    image: `${import.meta.env.BASE_URL}images/ella.png`
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const tours = [
     price: 150,
     rating: 4.7,
     duration: '3 Days',
-    image: '/images/mirissa.png'
+    image: `${import.meta.env.BASE_URL}images/mirissa.png`
   }
 ];
 

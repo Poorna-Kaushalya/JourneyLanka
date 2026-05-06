@@ -3,7 +3,10 @@ import { ArrowRight } from 'lucide-react';
 
 const CTASection = () => {
   return (
-    <section className="relative py-32 flex items-center justify-center text-center overflow-hidden bg-[url('/images/sigiriya.png')] bg-cover bg-center bg-fixed before:content-[''] before:absolute before:inset-0 before:bg-black/60 before:z-[1]">
+    <section 
+      className="relative py-32 flex items-center justify-center text-center overflow-hidden bg-cover bg-center bg-fixed before:content-[''] before:absolute before:inset-0 before:bg-black/60 before:z-[1]"
+      style={{ backgroundImage: `url('${import.meta.env.BASE_URL}images/sigiriya.png')` }}
+    >
       <div className="container relative z-[2] text-white max-w-[800px] animate-on-scroll">
         <h2 className="text-[2.25rem] md:text-[3rem] font-extrabold mb-4 drop-shadow-[0_4px_10px_rgba(0,0,0,0.2)]">Start your journey today with JourneyLanka</h2>
         <p className="text-[1.3rem] mb-12 opacity-95 drop-shadow-[0_2px_5px_rgba(0,0,0,0.1)]">Join thousands of travelers exploring Sri Lanka.</p>

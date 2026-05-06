@@ -1,16 +1,16 @@
 
 
 const destinations = [
-  { id: 1, name: 'Ella', tagline: 'Misty Mountains', image: '/images/ella.png', span: 'col-span-2 row-span-2' },
-  { id: 2, name: 'Kandy', tagline: 'Cultural Heart', image: '/images/kandy.png', span: 'col-span-1 row-span-1' },
-  { id: 3, name: 'Galle', tagline: 'Historic Fort', image: '/images/galle.png', span: 'col-span-1 row-span-1' },
-  { id: 4, name: 'Sigiriya', tagline: 'Ancient Fortress', image: '/images/sigiriya.png', span: 'col-span-1 row-span-2' },
-  { id: 5, name: 'Mirissa', tagline: 'Whale Watching', image: '/images/mirissa.png', span: 'col-span-1 row-span-1' },
-  { id: 6, name: 'Nuwara Eliya', tagline: 'Little England', image: '/images/ella.png', span: 'col-span-1 row-span-1' },
-  { id: 7, name: 'Arugam Bay', tagline: 'Surfers Paradise', image: '/images/mirissa.png', span: 'col-span-1 row-span-1' },
-  { id: 8, name: 'Trincomalee', tagline: 'Pristine Beaches', image: '/images/hero.png', span: 'col-span-1 row-span-1' },
-  { id: 9, name: 'Colombo', tagline: 'Bustling Capital', image: '/images/kandy.png', span: 'col-span-1 row-span-1' },
-  { id: 10, name: 'Jaffna', tagline: 'Northern Culture', image: '/images/galle.png', span: 'col-span-2 row-span-1' }
+  { id: 1, name: 'Ella', tagline: 'Misty Mountains', image: `${import.meta.env.BASE_URL}images/ella.png`, span: 'col-span-2 row-span-2' },
+  { id: 2, name: 'Kandy', tagline: 'Cultural Heart', image: `${import.meta.env.BASE_URL}images/kandy.png`, span: 'col-span-1 row-span-1' },
+  { id: 3, name: 'Galle', tagline: 'Historic Fort', image: `${import.meta.env.BASE_URL}images/galle.png`, span: 'col-span-1 row-span-1' },
+  { id: 4, name: 'Sigiriya', tagline: 'Ancient Fortress', image: `${import.meta.env.BASE_URL}images/sigiriya.png`, span: 'col-span-1 row-span-2' },
+  { id: 5, name: 'Mirissa', tagline: 'Whale Watching', image: `${import.meta.env.BASE_URL}images/mirissa.png`, span: 'col-span-1 row-span-1' },
+  { id: 6, name: 'Nuwara Eliya', tagline: 'Little England', image: `${import.meta.env.BASE_URL}images/ella.png`, span: 'col-span-1 row-span-1' },
+  { id: 7, name: 'Arugam Bay', tagline: 'Surfers Paradise', image: `${import.meta.env.BASE_URL}images/mirissa.png`, span: 'col-span-1 row-span-1' },
+  { id: 8, name: 'Trincomalee', tagline: 'Pristine Beaches', image: `${import.meta.env.BASE_URL}images/hero.png`, span: 'col-span-1 row-span-1' },
+  { id: 9, name: 'Colombo', tagline: 'Bustling Capital', image: `${import.meta.env.BASE_URL}images/kandy.png`, span: 'col-span-1 row-span-1' },
+  { id: 10, name: 'Jaffna', tagline: 'Northern Culture', image: `${import.meta.env.BASE_URL}images/galle.png`, span: 'col-span-2 row-span-1' }
 ];
 
 const PopularDestinations = () => {

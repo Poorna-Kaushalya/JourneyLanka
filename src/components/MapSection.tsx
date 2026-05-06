@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import { MapPin } from 'lucide-react';
 import sriLanka from '@svg-maps/sri-lanka';
 const locations = [
-  { id: 1, name: 'Colombo', top: '70%', left: '20%', info: 'Commercial capital, bustling city life and coastline.', image: '/images/kandy.png' },
-  { id: 2, name: 'Kandy', top: '60%', left: '45%', info: 'Cultural heart of Sri Lanka, home to the Temple of the Tooth.', image: '/images/kandy.png' },
-  { id: 3, name: 'Ella', top: '72%', left: '55%', info: 'Mountain village known for tea plantations and Nine Arch Bridge.', image: '/images/ella.png' },
-  { id: 4, name: 'Sigiriya', top: '45%', left: '48%', info: 'Ancient rock fortress and UNESCO World Heritage site.', image: '/images/sigiriya.png' },
-  { id: 5, name: 'Galle', top: '92%', left: '25%', info: 'Historic colonial fort city on the southwest coast.', image: '/images/galle.png' },
-  { id: 6, name: 'Mirissa', top: '95%', left: '40%', info: 'Beautiful beaches and world-class whale watching.', image: '/images/mirissa.png' },
-  { id: 7, name: 'Nuwara Eliya', top: '65%', left: '50%', info: 'Little England, famous for cool climate and tea estates.', image: '/images/ella.png' },
-  { id: 8, name: 'Jaffna', top: '10%', left: '35%', info: 'Northern capital rich in Tamil culture and history.', image: '/images/galle.png' }
+  { id: 1, name: 'Colombo', top: '70%', left: '20%', info: 'Commercial capital, bustling city life and coastline.', image: `${import.meta.env.BASE_URL}images/kandy.png` },
+  { id: 2, name: 'Kandy', top: '60%', left: '45%', info: 'Cultural heart of Sri Lanka, home to the Temple of the Tooth.', image: `${import.meta.env.BASE_URL}images/kandy.png` },
+  { id: 3, name: 'Ella', top: '72%', left: '55%', info: 'Mountain village known for tea plantations and Nine Arch Bridge.', image: `${import.meta.env.BASE_URL}images/ella.png` },
+  { id: 4, name: 'Sigiriya', top: '45%', left: '48%', info: 'Ancient rock fortress and UNESCO World Heritage site.', image: `${import.meta.env.BASE_URL}images/sigiriya.png` },
+  { id: 5, name: 'Galle', top: '92%', left: '25%', info: 'Historic colonial fort city on the southwest coast.', image: `${import.meta.env.BASE_URL}images/galle.png` },
+  { id: 6, name: 'Mirissa', top: '95%', left: '40%', info: 'Beautiful beaches and world-class whale watching.', image: `${import.meta.env.BASE_URL}images/mirissa.png` },
+  { id: 7, name: 'Nuwara Eliya', top: '65%', left: '50%', info: 'Little England, famous for cool climate and tea estates.', image: `${import.meta.env.BASE_URL}images/ella.png` },
+  { id: 8, name: 'Jaffna', top: '10%', left: '35%', info: 'Northern capital rich in Tamil culture and history.', image: `${import.meta.env.BASE_URL}images/galle.png` }
 ];
 
 const mapColors = ['#f0f9ff', '#e0f2fe', '#bae6fd', '#f0fdf4', '#dcfce7', '#fefce8', '#fef9c3'];

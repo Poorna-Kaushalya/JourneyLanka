@@ -2,10 +2,10 @@ import { useState, useEffect } from 'react';
 import { Search, MapPin, Calendar, ChevronLeft, ChevronRight, Users } from 'lucide-react';
 
 const images = [
-  '/images/hero.png',
-  '/images/sigiriya.png',
-  '/images/ella.png',
-  '/images/mirissa.png'
+  `${import.meta.env.BASE_URL}images/hero.png`,
+  `${import.meta.env.BASE_URL}images/sigiriya.png`,
+  `${import.meta.env.BASE_URL}images/ella.png`,
+  `${import.meta.env.BASE_URL}images/mirissa.png`
 ];
 
 const HeroSection = () => {
